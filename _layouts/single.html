@@ -36,6 +36,8 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'talks' %}
+          <p> {{ page.location }}, {{ page.date | default: "1900-01-01" | date: "%B %Y" }} </p>
         {% elsif page.venue and page.date %}
           <p><span class="publication__venue">{{ page.venue }}</span>{% if page.award %} <span class="publication__award">{{ page.award }}</span>{% endif %}</p>
         {% elsif page.date %}
