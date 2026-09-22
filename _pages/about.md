@@ -38,3 +38,5 @@ See my [publications](/publications/) and [CV](/cv/) for details, or read the CV
 
 * **August 04, 2026** I have presented "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" in [SIGDIAL 2026](https://2026.sigdial.org/) Thank you for joining!
 * **June 02, 2026** Our paper "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" has been accepted to [SIGDIAL 2026](https://2026.sigdial.org/). Thanks to my collaborators!
+* **July 2025** I am attending [A3 Foresight Workshop](/talks/2025-07-01-a3-foresight-workshop-busan) in Busan, Korea!
+* **September 2023** I am attending [A3 Foresight Workshop](/talks/2023-09-01-a3-foresight-workshop-nanjing) in Nanjing, China!

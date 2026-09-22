@@ -48,6 +48,7 @@ The pages are near-empty loops over those collections — never retype an entry'
 | CV | `_pages/cv.md` (hand-written Markdown) |
 | A paper | `_publications/YYYY-MM-DD-slug.md` |
 | A course | `_teaching/YYYY-term-slug.md` |
+| A talk or academic visit | `_talks/YYYY-MM-DD-slug.md` |
 | Downloadables (CV PDF, papers, slides) | `files/` → `https://hamachu216.github.io/files/...` |
 
 `_pages/publications.html` groups entries by the `category` front-matter key, in the order of
@@ -96,6 +97,11 @@ publication now differs from Academic Pages in three deliberate ways, all of the
 trade-off. Before pulling upstream changes into these two files, expect a conflict here and re-apply the
 three points above rather than taking either side wholesale.
 
+`_talks/` entries are pure front matter — `title`, `date`, `location` — and their meta line is one
+`{% elsif post.collection == 'talks' %}` branch in the same two files. The template's own
+`_layouts/talk.html` was an 80-line copy of `single.html` whose only new line read a `talk_type` key no
+entry sets; it was deleted and `talks` now defaults to `layout: single` like every other collection.
+
 Badge CSS lives at the end of `_sass/layout/_archive.scss`. The venue badge uses only pre-existing
 `--global-*` custom properties, so it follows all 6 themes × light/dark for free; the award badge needed a
 warm hue no theme defines, so `--publication-award-color` / `--publication-award-bg` are set once on
@@ -106,5 +112,5 @@ entry, a branch, or a file over adding one; this site's value is in the data, no
 
 Dormant template leftovers, referenced by nothing: `scripts/` and `_layouts/cv-layout.html` +
 `_includes/cv-template.html` drive a JSON-based CV from `_data/cv.json`, which was deleted in `a0c26ca`;
-`markdown_generator/` bulk-generates `_publications/` from CSV/BibTeX; `_portfolio/`, `_talks/`, `_posts/`
+`markdown_generator/` bulk-generates `_publications/` from CSV/BibTeX; `_portfolio/` and `_posts/`
 are empty. Don't wire any of them back in without being asked.
