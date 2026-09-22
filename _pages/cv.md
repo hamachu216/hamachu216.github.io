@@ -35,7 +35,7 @@ Research experience
   * Mentors: Yasue Kishino, Shin Mizutani, Yuya Chiba
   * Topic: "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction"
 
-* Yahoo! JAPAN Research, Yahoo! JAPAN, Japan
+* [Yahoo! JAPAN Research](https://research.lycorp.co.jp/en), Yahoo! JAPAN, Japan
   * Research Intern, May 2021 - Sep. 2023
   * Mentor: Kota Tsubouchi
   * Topic: "Large-Scale Estimation and Analysis of Web Users' Mood from Web Search Query and Mobile Sensor Data"

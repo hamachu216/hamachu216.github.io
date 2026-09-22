@@ -25,7 +25,7 @@ dialogue systems.
 
 I have been a Visiting Researcher at the [Embedded Intelligent Systems Laboratory](https://www.eis-lab.org/), Yonsei University
 (host: Prof. JeongGil Ko), a Research Intern at [NTT Communication Science Laboratories](https://www.rd.ntt/e/cs/), and a Research
-Intern at Yahoo! JAPAN Research. Since April 2024 I have also served as a Part-time Lecturer at the
+Intern at [Yahoo! JAPAN Research](https://research.lycorp.co.jp/en). Since April 2024 I have also served as a Part-time Lecturer at the
 Faculty of Environment and Information Studies, Keio University.
 
 My work is currently supported by the [JST SPRING Program (Keio-SPRING)](https://doctoral-support.keio.ac.jp/spring/).
