@@ -243,3 +243,40 @@
     }
   }
 }
+
+/* ==========================================================================
+   PUBLICATION BADGES
+   ========================================================================== */
+
+/* The award colour is the only hue the themes do not already provide. */
+:root {
+  --publication-award-color : #8a5a00;
+  --publication-award-bg    : rgba(248, 148, 6, 0.15);
+}
+
+html[data-theme="dark"] {
+  --publication-award-color : #ffc46b;
+  --publication-award-bg    : rgba(248, 148, 6, 0.22);
+}
+
+.publication__venue,
+.publication__award {
+  display: inline-block;
+  padding: 0.1em 0.55em;
+  border-radius: $border-radius;
+  font-size: $type-size-7;
+  font-weight: bold;
+  line-height: 1.7;
+}
+
+.publication__venue {
+  background-color: var(--global-thead-color);
+  border: 1px solid var(--global-border-color);
+  color: var(--global-text-color);
+}
+
+.publication__award {
+  background-color: var(--publication-award-bg);
+  border: 1px solid var(--publication-award-color);
+  color: var(--publication-award-color);
+}
