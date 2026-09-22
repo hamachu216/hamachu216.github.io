@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Ph.D. Student, Keio University"
 author_profile: true
 redirect_from: 
   - /about/
@@ -29,7 +28,7 @@ I have been a Visiting Researcher at the Embedded Intelligent Systems Laboratory
 Intern at Yahoo! JAPAN Research. Since April 2024 I have also served as a Part-time Lecturer at the
 Faculty of Environment and Information Studies, Keio University.
 
-My work is supported by the JST SPRING Program (Keio-SPRING), and has been funded by the Ushioda
+My work is supported by the [JST SPRING Program (Keio-SPRING)](https://doctoral-support.keio.ac.jp/spring/), and has been funded by the Ushioda
 Memorial Fund and the Taikichiro Mori Memorial Research Grants.
 
 See my [publications](/publications/) and [CV](/cv/) for details, or read the CV as a [PDF](/files/CV_Satoki_Hamanaka.pdf).

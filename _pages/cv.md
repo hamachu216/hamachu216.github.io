@@ -68,7 +68,7 @@ Teaching
 Fellowships and research grants
 ======
 * SIGDIAL 2026 Student Travel Grant, Special Interest Group on Discourse and Dialogue (SIGDIAL), 2026
-* JST SPRING Program (Keio-SPRING), Japan Science and Technology Agency, Apr. 2025 - Present
+* [JST SPRING Program (Keio-SPRING)](https://doctoral-support.keio.ac.jp/spring/), Japan Science and Technology Agency, Apr. 2025 - Present
 * Ushioda Memorial Fund, Doctoral Student Grant-in-Aid Program, Keio University, 2025 (JPY 188,000)
 * Taikichiro Mori Memorial Research Grants, Graduate Student Research Development Grant, Keio University, 2024 (JPY 325,000)
 * Taikichiro Mori Memorial Research Grants, Graduate Student Research Development Grant, Keio University, 2023 (JPY 240,000)
