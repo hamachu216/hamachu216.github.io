@@ -6,8 +6,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Satoki Hamanaka's personal academic site (<https://hamachu216.github.io>), built from the
 [Academic Pages](https://github.com/academicpages/academicpages.github.io) Jekyll template and served by
-GitHub Pages. **Pushing to `master` builds and deploys** — there is no CI workflow (the template's was
-removed in `218e7a3`), so a local build is the only pre-push check.
+GitHub Pages. **Pushing to `master` builds and deploys.**
+
+**A green local build does not mean a green deploy.** `docker compose up` builds with this repo's
+`Gemfile` (plain `jekyll` plus the plugins listed there); GitHub Pages builds with the `github-pages` gem,
+whose plugin set is larger. The gap has already broken a deploy once: `jekyll-optional-front-matter` is in
+the Pages set and not in ours, so Pages renders every root `*.md` without front matter as a page — it
+tried to run this file through Liquid, hit the `{%- if … %}` in an example, and failed the build with
+`'if' tag was never closed in CLAUDE.md`. Hence `CLAUDE.md` in `exclude:`. **Any new root-level Markdown
+that quotes Liquid must be added to `exclude:` in `_config.yml`, or it will pass locally and break the
+deploy.** (`AGENTS.md` is not excluded and is published as a page; harmless, but that is why.)
+
+There is no CI workflow of the repo's own (the template's were removed in `218e7a3`), so after a push
+check the deploy itself: `gh run list --limit 3`, and `gh run view <id> --log-failed` when it is red.
 
 Almost every task here is a content edit, not a code change. `AGENTS.md` is the upstream template's file;
 it has nothing to say about this fork.
