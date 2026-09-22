@@ -98,7 +98,7 @@ three points above rather than taking either side wholesale.
 
 A Talks page was built over the `talks` collection and taken out again in the same day (`c376f2a`, then
 this commit): two workshop visits did not pay for a menu item, a page, a collection and a meta-line branch
-in each of those two files. They are four lines of hand-written Markdown — `Academic visits` in
+in each of those two files. They are four lines of hand-written Markdown — a `Talks` section in
 `_pages/cv.md`, and two `## News` bullets — and the collection, `_layouts/talk.html` (a copy of
 `single.html` keyed on a `talk_type` nothing set) and `_pages/talks.html` are gone. **Don't rebuild it for
 a handful of entries.** A real list of invited talks would be worth the collection; a few trips are not.

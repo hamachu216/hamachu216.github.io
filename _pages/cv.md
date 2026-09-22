@@ -40,11 +40,6 @@ Research experience
   * Mentor: Kota Tsubouchi
   * Topic: "Large-Scale Estimation and Analysis of Web Users' Mood from Web Search Query and Mobile Sensor Data"
 
-Academic visits
-======
-* A3 Foresight Workshop, Busan, Republic of Korea, Jul. 2025
-* A3 Foresight Workshop, Nanjing, China, Sep. 2023
-
 Research interests
 ======
 * Human-Centered Mobile and Ubiquitous Computing
@@ -56,6 +51,11 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+Talks
+======
+* A3 Foresight Workshop, Busan, Republic of Korea, Jul. 2025
+* A3 Foresight Workshop, Nanjing, China, Sep. 2023
 
 Awards and honors
 ======
