@@ -6,5 +6,6 @@ permalink: /publication/2023-11-07-emogo-emotion-gazed-object
 date: 2023-11-07
 venue: 'ACM International Conference on the Internet of Things (IoT)'
 award: 'Best Poster Runner-Up Award'
+doi: '10.1145/3627050.3630729'
 citation: 'Takumi Karasawa, <b>Satoki Hamanaka</b>, Taiga Kume, Wataru Sasaki, Jin Nakazawa, Tadashi Okoshi. &quot;EmoGO: Emotion Estimation on Gazed Object by Using Mobile Eye-Tracker&quot;. <i>ACM International Conference on the Internet of Things (IoT)</i>, 2023, Nagoya, Japan, pp. 158-161.'
 ---
