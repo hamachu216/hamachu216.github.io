@@ -9,56 +9,66 @@ redirect_from:
 
 {% include base_path %}
 
+[Download as PDF]({{ base_path }}/files/CV_Satoki_Hamanaka.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. Student, Graduate School of Media and Governance, Keio University, Apr. 2024 - Sep. 2027 (expected)
+  * Advisor: Prof. Tadashi Okoshi
+* M.S. Student, Graduate School of Media and Governance, Keio University, Apr. 2022 - Mar. 2024
+  * Advisor: Prof. Tadashi Okoshi
+* B.A. in Environment and Information Studies, Keio University, Apr. 2018 - Mar. 2022
+  * Advisors: Prof. Jin Nakazawa & Prof. Tadashi Okoshi
 
-Work experience
+Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Nakazawa and Okoshi Lab, Keio University
+  * Ph.D. Student, Apr. 2024 - Present (Advisor: Tadashi Okoshi)
+  * Master's Student, Apr. 2022 - Mar. 2024 (Advisor: Tadashi Okoshi)
+  * Undergraduate Student, Oct. 2020 - Mar. 2022 (Advisors: Jin Nakazawa & Tadashi Okoshi)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Embedded Intelligent Systems Laboratory, Yonsei University, Republic of Korea
+  * Visiting Researcher, Mar. 2025; Aug. 2025 (Host: Prof. JeongGil Ko)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+* NTT Communication Science Laboratories, NTT Research, Japan
+  * Research Intern, Feb. 2025; Feb. 2026
+  * Mentors: Yasue Kishino, Shin Mizutani, Yuya Chiba
+  * Topic: "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction"
+
+* Yahoo! JAPAN Research, Yahoo! JAPAN, Japan
+  * Research Intern, May 2021 - Sep. 2023
+  * Mentor: Kota Tsubouchi
+  * Topic: "Large-Scale Estimation and Analysis of Web Users' Mood from Web Search Query and Mobile Sensor Data"
+
+Research interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Human-Centered Mobile and Ubiquitous Computing
+* Multimodal Sensing and Behavioral Modeling
+* AI/LLM Systems for Health and Human Interaction
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Awards and honors
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+* Specially Selected Paper, IPSJ Journal, Volume 67, Issue 3, 2026 - "Adaptive Push Notification Approach for Behavioral Change in Lifelogging Services"
+* Outstanding Presentation Award, Health Communication Week 2024 in Yokohama, Japan - "Adaptive Push Notification Approach for Behavioral Change in Lifelogging Services"
+* Best Poster Runner-Up Award, ACM International Conference on the Internet of Things (ACM IoT) 2023, Nagoya, Japan - "EmoGO: Emotion Estimation on Gazed Object by Using Mobile Eye-Tracker"
+* Best Oral Presentation Award, IPSJ IoT Behavior Change Informatics Research Group 2nd Workshop (BTI2) 2022, Nara, Japan - "Adaptive Push Notification and Behavioral Change in Lifelogging Services"
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Fellowships and research grants
 ======
-* Currently signed in to 43 different slack teams
+* SIGDIAL 2026 Student Travel Grant, Special Interest Group on Discourse and Dialogue (SIGDIAL), 2026
+* JST SPRING Program (Keio-SPRING), Japan Science and Technology Agency, Apr. 2025 - Present
+* Ushioda Memorial Fund, Doctoral Student Grant-in-Aid Program, Keio University, 2025 (JPY 188,000)
+* Taikichiro Mori Memorial Research Grants, Graduate Student Research Development Grant, Keio University, 2024 (JPY 325,000)
+* Taikichiro Mori Memorial Research Grants, Graduate Student Research Development Grant, Keio University, 2023 (JPY 240,000)
