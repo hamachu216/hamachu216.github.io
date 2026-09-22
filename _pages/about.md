@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 I am a Ph.D. student at the [Graduate School of Media and Governance](https://www.sfc.keio.ac.jp/en/gsmg/), Keio University,
-advised by Prof. Tadashi Okoshi in the [Nakazawa and Okoshi Lab](https://www.ht.sfc.keio.ac.jp/).
+advised by Prof. Tadashi Okoshi in the [Nakazawa and Okoshi Lab](https://www.jn.sfc.keio.ac.jp/).
 
 My research sits at the intersection of mobile sensing, behavioral modeling, and human-centered
 AI systems. I build systems that sense everyday human behavior through mobile and wearable devices,

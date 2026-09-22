@@ -22,7 +22,7 @@ Education
 
 Research experience
 ======
-* Nakazawa and Okoshi Lab, Keio University
+* [Nakazawa and Okoshi Lab](https://www.jn.sfc.keio.ac.jp/), Keio University
   * Ph.D. Student, Apr. 2024 - Present (Advisor: Tadashi Okoshi)
   * Master's Student, Apr. 2022 - Mar. 2024 (Advisor: Tadashi Okoshi)
   * Undergraduate Student, Oct. 2020 - Mar. 2022 (Advisors: Jin Nakazawa & Tadashi Okoshi)
