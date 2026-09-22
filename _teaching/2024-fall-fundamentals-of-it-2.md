@@ -15,5 +15,5 @@ at the Shonan Fujisawa Campus (SFC), Keio University. 2 credits, Wed. 4-5.
 
 Syllabus:
 
-* [Spring 2026](https://gslbs.keio.jp/pub-syllabus/detail?ttblyr=2026&entno=10068&lang=jp)
-* [Fall 2026](https://gslbs.keio.jp/pub-syllabus/detail?ttblyr=2026&entno=20510&lang=jp)
+* [Spring 2026](https://gslbs.keio.jp/pub-syllabus/detail?ttblyr=2026&entno=10068&lang=en)
+* [Fall 2026](https://gslbs.keio.jp/pub-syllabus/detail?ttblyr=2026&entno=20510&lang=en)

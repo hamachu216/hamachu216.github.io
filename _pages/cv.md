@@ -54,10 +54,10 @@ Publications
 
 Awards and honors
 ======
-* Specially Selected Paper, IPSJ Journal, Volume 67, Issue 3, 2026 - "Adaptive Push Notification Approach for Behavioral Change in Lifelogging Services"
-* Outstanding Presentation Award, Health Communication Week 2024 in Yokohama, Japan - "Adaptive Push Notification Approach for Behavioral Change in Lifelogging Services"
-* Best Poster Runner-Up Award, ACM International Conference on the Internet of Things (ACM IoT) 2023, Nagoya, Japan - "EmoGO: Emotion Estimation on Gazed Object by Using Mobile Eye-Tracker"
-* Best Oral Presentation Award, IPSJ IoT Behavior Change Informatics Research Group 2nd Workshop (BTI2) 2022, Nara, Japan - "Adaptive Push Notification and Behavioral Change in Lifelogging Services"
+* **Specially Selected Paper**, IPSJ Journal, Volume 67, Issue 3, 2026 - "Adaptive Push Notification Approach for Behavioral Change in Lifelogging Services"
+* **Outstanding Presentation Award**, Health Communication Week 2024 in Yokohama, Japan - "Adaptive Push Notification Approach for Behavioral Change in Lifelogging Services"
+* **Best Poster Runner-Up Award**, ACM International Conference on the Internet of Things (ACM IoT) 2023, Nagoya, Japan - "EmoGO: Emotion Estimation on Gazed Object by Using Mobile Eye-Tracker"
+* **Best Oral Presentation Award**, IPSJ IoT Behavior Change Informatics Research Group 2nd Workshop (BTI2) 2022, Nara, Japan - "Adaptive Push Notification and Behavioral Change in Lifelogging Services"
 
 Teaching
 ======
