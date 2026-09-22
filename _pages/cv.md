@@ -70,6 +70,10 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+Professional service
+======
+* Local arrangements, Academy of Behavior Transformation by AIoT 10th Research Meeting (BTI10), Keio University, Tokyo, Japan, Dec. 2025
+
 Fellowships and research grants
 ======
 * SIGDIAL 2026 Student Travel Grant, Special Interest Group on Discourse and Dialogue (SIGDIAL), 2026
