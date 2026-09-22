@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Satoki Hamanaka"
+title: "Ph.D. Student, Keio University"
 author_profile: true
 redirect_from: 
   - /about/
