@@ -72,7 +72,7 @@ Teaching
 
 Professional service
 ======
-* Local arrangements, Academy of Behavior Transformation by AIoT 10th Research Meeting (BTI10), Keio University, Tokyo, Japan, Dec. 2025
+* Local arrangements, [Academy of Behavior Transformation by AIoT 10th Research Meeting (BTI10)](https://www.sig-bti.jp/bti10-%e7%a0%94%e7%a9%b6%e4%bc%9a-%e9%96%8b%e5%82%ac%e5%a0%b1%e5%91%8a/), Keio University, Tokyo, Japan, Dec. 2025
 
 Fellowships and research grants
 ======
