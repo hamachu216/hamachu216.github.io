@@ -27,10 +27,10 @@ Research experience
   * Master's Student, Apr. 2022 - Mar. 2024 (Advisor: Tadashi Okoshi)
   * Undergraduate Student, Oct. 2020 - Mar. 2022 (Advisors: Jin Nakazawa & Tadashi Okoshi)
 
-* Embedded Intelligent Systems Laboratory, Yonsei University, Republic of Korea
+* [Embedded Intelligent Systems Laboratory](https://www.eis-lab.org/), Yonsei University, Republic of Korea
   * Visiting Researcher, Mar. 2025; Aug. 2025 (Host: Prof. JeongGil Ko)
 
-* NTT Communication Science Laboratories, NTT Research, Japan
+* [NTT Communication Science Laboratories](https://www.rd.ntt/e/cs/), NTT Research, Japan
   * Research Intern, Feb. 2025; Feb. 2026
   * Mentors: Yasue Kishino, Shin Mizutani, Yuya Chiba
   * Topic: "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction"
