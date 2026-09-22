@@ -11,8 +11,8 @@ advised by Prof. Tadashi Okoshi in the [Nakazawa and Okoshi Lab](https://www.jn.
 
 My research sits at the intersection of mobile sensing, behavioral modeling, and human-centered
 AI systems. I build systems that sense everyday human behavior through mobile and wearable devices,
-model it, and intervene at the right moment - for example, adaptive push notifications that drive
-behavioral change in lifelogging services, and sensor-augmented turn-taking prediction for spoken
+model it, and intervene at the right moment. Examples include adaptive push notifications that drive
+behavioral change in lifelogging services and sensor-augmented turn-taking prediction for spoken
 dialogue systems.
 
 ## Research Interests
@@ -36,7 +36,7 @@ See my [publications](/publications/) and [CV](/cv/) for details, or read the CV
 
 ## News
 
-* **August 04, 2026** I have presented "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" in [SIGDIAL 2026](https://2026.sigdial.org/) Thank you for joining!
+* **August 04, 2026** I presented "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" at [SIGDIAL 2026](https://2026.sigdial.org/). Thank you to everyone who attended!
 * **June 02, 2026** Our paper "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" has been accepted to [SIGDIAL 2026](https://2026.sigdial.org/). Thanks to my collaborators!
-* **July, 2025** I am attending A3 Foresight Workshop in Busan, Korea!
-* **September, 2023** I am attending A3 Foresight Workshop in Nanjing, China!
+* **July, 2025** I attended the A3 Foresight Workshop in Busan, Korea.
+* **September, 2023** I attended the A3 Foresight Workshop in Nanjing, China.
