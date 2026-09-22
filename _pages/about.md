@@ -32,4 +32,4 @@ Faculty of Environment and Information Studies, Keio University.
 My work is supported by the JST SPRING Program (Keio-SPRING), and has been funded by the Ushioda
 Memorial Fund and the Taikichiro Mori Memorial Research Grants.
 
-See my [publications](/publications/) and [CV](/cv/) for details.
+See my [publications](/publications/) and [CV](/cv/) for details, or read the CV as a [PDF](/files/CV_Satoki_Hamanaka.pdf).
