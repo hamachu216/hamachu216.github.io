@@ -48,7 +48,6 @@ The pages are near-empty loops over those collections — never retype an entry'
 | CV | `_pages/cv.md` (hand-written Markdown) |
 | A paper | `_publications/YYYY-MM-DD-slug.md` |
 | A course | `_teaching/YYYY-term-slug.md` |
-| A talk or academic visit | `_talks/YYYY-MM-DD-slug.md` |
 | Downloadables (CV PDF, papers, slides) | `files/` → `https://hamachu216.github.io/files/...` |
 
 `_pages/publications.html` groups entries by the `category` front-matter key, in the order of
@@ -97,10 +96,12 @@ publication now differs from Academic Pages in three deliberate ways, all of the
 trade-off. Before pulling upstream changes into these two files, expect a conflict here and re-apply the
 three points above rather than taking either side wholesale.
 
-`_talks/` entries are pure front matter — `title`, `date`, `location` — and their meta line is one
-`{% elsif post.collection == 'talks' %}` branch in the same two files. The template's own
-`_layouts/talk.html` was an 80-line copy of `single.html` whose only new line read a `talk_type` key no
-entry sets; it was deleted and `talks` now defaults to `layout: single` like every other collection.
+A Talks page was built over the `talks` collection and taken out again in the same day (`c376f2a`, then
+this commit): two workshop visits did not pay for a menu item, a page, a collection and a meta-line branch
+in each of those two files. They are four lines of hand-written Markdown — `Academic visits` in
+`_pages/cv.md`, and two `## News` bullets — and the collection, `_layouts/talk.html` (a copy of
+`single.html` keyed on a `talk_type` nothing set) and `_pages/talks.html` are gone. **Don't rebuild it for
+a handful of entries.** A real list of invited talks would be worth the collection; a few trips are not.
 
 Badge CSS lives at the end of `_sass/layout/_archive.scss`. The venue badge uses only pre-existing
 `--global-*` custom properties, so it follows all 6 themes × light/dark for free; the award badge needed a
