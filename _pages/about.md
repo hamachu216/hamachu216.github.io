@@ -16,19 +16,14 @@ model it, and intervene at the right moment - for example, adaptive push notific
 behavioral change in lifelogging services, and sensor-augmented turn-taking prediction for spoken
 dialogue systems.
 
-News
-======
-* **August 4, 2026** - I presented "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" at SIGDIAL 2026 in Atlanta. Thank you for joining!
-* **June 2, 2026** - Our paper "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" has been accepted to SIGDIAL 2026. Thanks to my collaborators!
+## Research Interests
 
-Research Interests
-======
 * Human-Centered Mobile and Ubiquitous Computing
 * Multimodal Sensing and Behavioral Modeling
 * AI/LLM Systems for Health and Human Interaction
 
-Experience
-======
+## Experience
+
 I have been a Visiting Researcher at the Embedded Intelligent Systems Laboratory, Yonsei University
 (host: Prof. JeongGil Ko), a Research Intern at NTT Communication Science Laboratories, and a Research
 Intern at Yahoo! JAPAN Research. Since April 2024 I have also served as a Part-time Lecturer at the
@@ -38,3 +33,8 @@ My work is supported by the JST SPRING Program (Keio-SPRING), and has been funde
 Memorial Fund and the Taikichiro Mori Memorial Research Grants.
 
 See my [publications](/publications/) and [CV](/cv/) for details, or read the CV as a [PDF](/files/CV_Satoki_Hamanaka.pdf).
+
+## News
+
+* **August 04, 2026** I have presented "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" in [SIGDIAL 2026](https://2026.sigdial.org/) Thank you for joining!
+* **June 02, 2026** Our paper "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" has been accepted to [SIGDIAL 2026](https://2026.sigdial.org/). Thanks to my collaborators!
