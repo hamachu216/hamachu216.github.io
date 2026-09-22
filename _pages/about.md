@@ -16,6 +16,11 @@ model it, and intervene at the right moment - for example, adaptive push notific
 behavioral change in lifelogging services, and sensor-augmented turn-taking prediction for spoken
 dialogue systems.
 
+News
+======
+* **August 4, 2026** - I presented "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" at SIGDIAL 2026 in Atlanta. Thank you for joining!
+* **June 2, 2026** - Our paper "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" has been accepted to SIGDIAL 2026. Thanks to my collaborators!
+
 Research Interests
 ======
 * Human-Centered Mobile and Ubiquitous Computing
