@@ -36,7 +36,9 @@ See my [publications](/publications/) and [CV](/cv/) for details, or read the CV
 
 ## News
 
-* **August 04, 2026** I presented "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" at [SIGDIAL 2026](https://2026.sigdial.org/). Thank you to everyone who attended!
-* **June 02, 2026** Our paper "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" has been accepted to [SIGDIAL 2026](https://2026.sigdial.org/). Thanks to my collaborators!
+* **August, 2026** I presented "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" at [SIGDIAL 2026](https://2026.sigdial.org/). Thank you to everyone who attended!
+* **June, 2026** Our paper "Sensor-Augmented Voice Activity Projection for Enhancing Turn-Taking Prediction" has been accepted to [SIGDIAL 2026](https://2026.sigdial.org/). Thanks to my collaborators!
+* **March, 2026** Our paper "Adaptive Push Notification Approach for Behavioral Change in Lifelogging Services" was selected as a Specially Selected Paper by IPSJ Journal.
+* **December, 2025** Our paper "Adaptive Push Notification Approach for Behavioral Change in Lifelogging Services" has been accepted to IPSJ Journal.
 * **July, 2025** I attended the A3 Foresight Workshop in Busan, Korea.
 * **September, 2023** I attended the A3 Foresight Workshop in Nanjing, China.
