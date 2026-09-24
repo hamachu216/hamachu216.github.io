@@ -26,6 +26,7 @@ Research experience
   * Ph.D. Student, Apr. 2024 - Present (Advisor: Tadashi Okoshi)
   * Master's Student, Apr. 2022 - Mar. 2024 (Advisor: Tadashi Okoshi)
   * Undergraduate Student, Oct. 2020 - Mar. 2022 (Advisors: Jin Nakazawa & Tadashi Okoshi)
+  * Research Member, [JST RISTEX AmPlatea Project](https://internet-of-realities.org/amplatea/) (PI: Takuro Yonezawa, Nagoya University), 2024 - Present
 
 * [Embedded Intelligent Systems Laboratory](https://www.eis-lab.org/), Yonsei University, Republic of Korea
   * Visiting Researcher, Mar. 2025; Aug. 2025 (Host: Prof. JeongGil Ko)
