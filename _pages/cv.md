@@ -60,6 +60,7 @@ Talks
 
 Awards and honors
 ======
+* **Honorable Mention Award**, 11th International Workshop on Mental Health and Well-being 2026, Shanghai, China - "Mental Health Counseling LLMs in Mixed IID/Non-IID Federations"
 * **Specially Selected Paper**, IPSJ Journal, Volume 67, Issue 3, 2026 - "Adaptive Push Notification Approach for Behavioral Change in Lifelogging Services"
 * **Outstanding Presentation Award**, Health Communication Week 2024 in Yokohama, Japan - "Adaptive Push Notification Approach for Behavioral Change in Lifelogging Services"
 * **Best Poster Runner-Up Award**, ACM International Conference on the Internet of Things (ACM IoT) 2023, Nagoya, Japan - "EmoGO: Emotion Estimation on Gazed Object by Using Mobile Eye-Tracker"
