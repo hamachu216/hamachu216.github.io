@@ -9,11 +9,10 @@ redirect_from:
 I am a Ph.D. student at the [Graduate School of Media and Governance](https://www.sfc.keio.ac.jp/en/gsmg/), Keio University,
 advised by Prof. Tadashi Okoshi in the [Nakazawa and Okoshi Lab](https://www.jn.sfc.keio.ac.jp/).
 
-My research sits at the intersection of mobile sensing, behavioral modeling, and human-centered
-AI systems. I build systems that sense everyday human behavior through mobile and wearable devices,
-model it, and intervene at the right moment. Examples include adaptive push notifications that drive
-behavioral change in lifelogging services and sensor-augmented turn-taking prediction for spoken
-dialogue systems.
+My research focuses on mobile sensing, behavioral modeling, and human-centered AI. I investigate how
+data from mobile and wearable devices can be used to understand human behavior and support
+context-aware interactions. My work includes adaptive push notifications for behavior change in
+lifelogging services and sensor-augmented turn-taking prediction for spoken dialogue systems.
 
 ## Research Interests
 
