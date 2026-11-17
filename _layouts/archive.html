@@ -17,7 +17,14 @@ layout: default
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
+      <header class="archive__header">
+        <h1 class="page__title">{{ page.title }}</h1>
+        {% if page.languages %}
+          <nav class="lang-switch" aria-label="Language">
+            {%- for l in page.languages %}<a href="{{ l.url }}"{% if l.url == page.url %} aria-current="page"{% endif %}>{{ l.label }}</a>{% endfor -%}
+          </nav>
+        {% endif %}
+      </header>
     {% endunless %}
     {{ content }}
   </div>

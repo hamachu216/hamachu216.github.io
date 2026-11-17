@@ -1,5 +1,5 @@
 ---
-title: "ポスター: スマートフォンのセンサデータに基づくユーザコンテキスト認識型音楽推薦システム"
+title: "スマートフォンのセンサデータに基づくユーザコンテキスト認識型音楽推薦システム"
 collection: publications
 category: domestic
 permalink: /publication/2024-12-13-poster-context-aware-music-recommendation-bti8
