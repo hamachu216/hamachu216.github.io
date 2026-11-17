@@ -282,7 +282,7 @@ html[data-theme="dark"] {
 }
 
 /* ==========================================================================
-   LANGUAGE SWITCH (pages with `languages:` in their front matter)
+   LANGUAGE SWITCH (pages with `translation:` in their front matter)
    ========================================================================== */
 
 .archive__header {
@@ -294,31 +294,18 @@ html[data-theme="dark"] {
 }
 
 .lang-switch {
-  display: inline-flex;
+  display: inline-block;
   margin-bottom: 1em;
+  padding: 0.1em 0.7em;
   border: 1px solid var(--global-border-color);
   border-radius: $border-radius;
-  overflow: hidden;
   font-size: $type-size-7;
   font-weight: bold;
   line-height: 1.7;
+  color: var(--global-text-color);
+  text-decoration: none;
 
-  a {
-    padding: 0.1em 0.7em;
-    color: var(--global-text-color);
-    text-decoration: none;
-
-    + a {
-      border-left: 1px solid var(--global-border-color);
-    }
-
-    &:hover {
-      background-color: rgba(128, 128, 128, 0.18);
-    }
-
-    &[aria-current] {
-      background-color: var(--global-text-color);
-      color: var(--global-bg-color);
-    }
+  &:hover {
+    background-color: rgba(128, 128, 128, 0.18);
   }
 }
