@@ -83,13 +83,20 @@ author:
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
+# A category is listed on /publications/ when it has `title`, and on
+# /ja/publications/ when it has `title_ja`; `domestic` is Japanese-only.
 publication_category:
   manuscripts:
     title: 'Journal Articles'
+    title_ja: '論文誌'
   conferences:
     title: 'Conference Papers'
+    title_ja: '国際会議'
   workshops:
     title: 'Workshop Papers, Posters, and Demos'
+    title_ja: '国際ワークショップ・ポスター・デモ'
+  domestic:
+    title_ja: '国内研究会'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

@@ -46,14 +46,24 @@ The pages are near-empty loops over those collections — never retype an entry'
 | Header menu | `_data/navigation.yml` |
 | Front page (bio, Experience, News) | `_pages/about.md` |
 | CV | `_pages/cv.md` (hand-written Markdown) |
-| A paper | `_publications/YYYY-MM-DD-slug.md` |
+| A paper | `_publications/YYYY-MM-DD-slug.md` (`category: domestic` for 国内研究会, Japanese-page only) |
 | A course | `_teaching/YYYY-term-slug.md` |
 | Downloadables (CV PDF, papers, slides) | `files/` → `https://hamachu216.github.io/files/...` |
 
-`_pages/publications.html` groups entries by the `category` front-matter key, in the order of
-`publication_category` in `_config.yml`: `manuscripts` (Journal Articles), `conferences` (Conference
-Papers), `workshops` (Workshop Papers, Posters, and Demos). A file whose `category` is not one of those
-three silently renders nowhere.
+`_pages/publications.html` and its Japanese twin `_pages/ja/publications.html` (`lang: ja`) are front
+matter plus `{% include publications-by-category.html %}`, which groups entries by the `category`
+front-matter key in the order of `publication_category` in `_config.yml`. **A category is listed on a page
+only when it has a heading in that page's language**: `title` for English, `title_ja` for Japanese. So
+`manuscripts`, `conferences` and `workshops` appear on both pages, and `domestic` (国内研究会, `title_ja`
+only) appears on the Japanese page alone. A file whose `category` has no heading in either language
+silently renders nowhere.
+
+Japanese rendering is the same fallback rule per entry: `archive-single.html` reads `title_ja`,
+`venue_ja`, `award_ja` and `citation_ja` when the page sets `lang: ja`, and falls back to the English key.
+International papers therefore stay in English on the Japanese page with no extra data; only Japanese-venue
+papers carry `_ja` keys (see the IPSJ Journal entry). A `domestic` paper is written in Japanese in `title`
+and `citation` directly, since that is the paper's own language. The individual `/publication/<slug>/` page
+exists once, in whatever language its `title`/`citation` are written in.
 
 Publication front matter (see `_publications/2026-08-04-sensor-augmented-vap-sigdial.md`); `citation` is
 raw HTML with the author's own name in `<b>`, quotes as `&quot;`, venue in `<i>`:

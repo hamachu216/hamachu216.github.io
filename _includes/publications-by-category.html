@@ -1,0 +1,21 @@
+{%- comment -%}
+  Lists site.publications grouped by site.publication_category, in that order.
+  A category appears only when it has a heading in the page's language
+  (`title` for English, `title_ja` when the page sets `lang: ja`).
+{%- endcomment -%}
+{%- assign heading_key = 'title_' | append: page.lang -%}
+{% for category in site.publication_category %}
+  {%- assign heading = category[1][heading_key] | default: category[1].title -%}
+  {%- unless heading %}{% continue %}{% endunless -%}
+  {% assign title_shown = false %}
+  {% for post in site.publications reversed %}
+    {% if post.category != category[0] %}
+      {% continue %}
+    {% endif %}
+    {% unless title_shown %}
+      <h2>{{ heading }}</h2><hr />
+      {% assign title_shown = true %}
+    {% endunless %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}

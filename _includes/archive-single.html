@@ -6,10 +6,17 @@
   {% assign teaser = site.teaser %}
 {% endif %}
 
+{%- comment -%} A page with `lang: ja` reads `title_ja` etc. and falls back to the English key. {%- endcomment -%}
+{%- assign title_key = 'title_' | append: page.lang -%}
+{%- assign venue_key = 'venue_' | append: page.lang -%}
+{%- assign award_key = 'award_' | append: page.lang -%}
+{%- assign citation_key = 'citation_' | append: page.lang -%}
+{%- assign title = post[title_key] | default: post.title -%}
+{%- assign venue = post[venue_key] | default: post.venue -%}
+{%- assign award = post[award_key] | default: post.award -%}
+{%- assign citation = post[citation_key] | default: post.citation -%}
 {% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
+  {% assign title = title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
@@ -41,7 +48,7 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p><span class="publication__venue">{{ post.venue }}</span>{% if post.award %} <span class="publication__award">{{ post.award }}</span>{% endif %}</p>
+          <p><span class="publication__venue">{{ venue }}</span>{% if award %} <span class="publication__award">{{ award }}</span>{% endif %}</p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -59,8 +66,8 @@
       {%- if post.bibtexurl %}<a href="{{ post.bibtexurl }}">Download Bibtex</a>;;{% endif -%}
     {%- endcapture -%}
     {%- assign links = links | split: ";;" | join: " | " -%}
-    {% if post.citation or links != "" %}
-      <p>{{ post.citation }}{% if post.citation and links != "" %}<br />{% endif %}{{ links }}</p>
+    {% if citation or links != "" %}
+      <p>{{ citation }}{% if citation and links != "" %}<br />{% endif %}{{ links }}</p>
     {% endif %}
 
   </article>

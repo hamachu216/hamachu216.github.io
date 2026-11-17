@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "研究業績"
+permalink: /ja/publications/
+lang: ja
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap"><a href="{{site.author.googlescholar}}">Google Scholar</a> にも業績一覧があります。</div>
+{% endif %}
+
+{% include publications-by-category.html %}
